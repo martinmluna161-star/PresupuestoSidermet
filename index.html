@@ -41,7 +41,7 @@
             overflow: hidden;
         }
 
-        /* BRANDING HEADER CORREGIDO */
+        /* BRANDING HEADER */
         .branding-bar {
             background-color: #ffffff;
             padding: 20px 30px;
@@ -222,6 +222,31 @@
             font-size: 0.95rem;
         }
 
+        .maintenance-box {
+            background-color: #f0f9ff;
+            border: 1px solid #bae6fd;
+            border-left: 4px solid var(--secondary);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+
+        .maintenance-box h3 {
+            color: var(--primary-dark);
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .maintenance-box .price-tag {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: var(--primary);
+            margin-bottom: 8px;
+        }
+
         table {
             width: 100%;
             border-collapse: collapse;
@@ -319,7 +344,7 @@
 <body>
 
 <div class="container">
-    <!-- BRANDING INICIAL INCLUIDO EN BASE64 -->
+    <!-- BRANDING INICIAL -->
     <div class="branding-bar">
         <svg class="branding-logo" viewBox="0 0 420 100" xmlns="http://www.w3.org/2000/svg" style="height: 48px; width: auto;">
             <!-- Dco logo -->
@@ -689,6 +714,21 @@
                 <div class="title">3. Estabilización</div>
                 <div class="desc">Abonado a los 30 días de funcionamiento continuo y ajustes.</div>
             </div>
+        </div>
+
+        <!-- MANTENIMIENTO Y SERVICIOS MENSUALES -->
+        <h2 class="section-title">Mantenimiento de Infraestructura y Servicios Cloud</h2>
+        <div class="maintenance-box">
+            <h3>⚙️ Abono Mensual de Infraestructura y Conectividad</h3>
+            <div class="price-tag">U$S 150 / mes <span style="font-size: 0.9rem; font-weight: normal; color: var(--text-muted);">(A partir del 3.er mes de implementación)</span></div>
+            <p style="font-size: 0.92rem; color: var(--text-dark);">
+                A partir de los 90 días de la implementación (tras el período inicial bonificado), se aplicará un costo mensual de <strong>U$S 150</strong> destinado a cubrir:
+            </p>
+            <ul style="margin-top: 10px; padding-left: 20px; font-size: 0.9rem; color: var(--text-dark);">
+                <li style="margin-bottom: 5px;">Alojamiento e infraestructura en la nube (servidores cloud de alta disponibilidad y base de datos).</li>
+                <li style="margin-bottom: 5px;">Consumos de API de Inteligencia Artificial para el procesamiento e interpretación de datos.</li>
+                <li>Conexiones, integración de API y mensajería automatizada mediante servicios de Meta / WhatsApp.</li>
+            </ul>
         </div>
 
         <h2 class="section-title">Garantía del Equipamiento</h2>
